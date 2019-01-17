@@ -1,0 +1,190 @@
+/* ----------General -------------*/
+
+body,
+html {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    font-family: 'circular' !important;
+}
+
+
+
+/* ------------GENERAL END ----------------*/
+
+/* ------------ Navbar ------------*/
+
+.navbar-brand {
+    font-family: 'quicksand';
+    font-size: 2em !important;
+    color: #707070 !important;
+}
+
+.logo {
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+.navbar {
+    font-family: 'circular';
+    font-size: 1em;
+}
+
+.nav-item {
+    padding: 0 20px;
+}
+
+/* ------------ Navbar END ------------*/
+
+/* ------------ Landing Page ------------*/
+
+/* This is the landing page's dark background */
+
+.bg {
+    background-image: url('/images/Background_D.svg');
+    height: 100%;
+    width: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* Main Pc */
+
+.landingIMG {
+    position: absolute;
+    bottom: 0;
+    width: 60%;
+    height: 60%;
+}
+
+/* ------------ Landing Page END ------------*/
+
+/* After landing page [pt2] */
+
+#pt2 {
+    padding-top: 10%;
+    padding-bottom: 20%;
+}
+
+.row {
+    font-family: 'circular';
+}
+
+.resourceH {
+    font-size: 5em;
+    padding-bottom: 5%;
+}
+
+.para2,
+.para3 {
+    color: #7F7B82;
+    font-size: 5em;
+}
+
+/*After LandingPage End*/
+
+/*--------------------- Think Big Section ------------*/
+
+.thinkBigH {
+    font-size: 5em;
+}
+
+.thinkBigIMG {
+    width: 70%;
+    height: 70%;
+}
+
+.thinkBigTXT_1,
+#thinkBigTXT_2 {
+    text-align: center;
+    color: #2D2D35;
+}
+
+.thinkBigTXT_1 {
+    margin-top: 5%;
+    margin-bottom: 10%;
+    font-size: 5em;
+
+}
+
+#thinkBigTXT_2 {
+    font-size: 3em;
+}
+
+.organise {
+    color: #EFC411;
+}
+
+/*------------ Think big section's BUTTON ------*/
+
+.topBtn {
+    padding: 0;
+    margin: 0;
+}
+
+.signUp_1 {
+    margin-top: 5em;
+}
+
+
+
+/* think big - BUTTON - END */
+
+/*------------------------Think Big Section End------------------------*/
+
+/* ------------ Fonts ------------*/
+
+@font-face {
+    font-family: 'circular';
+    src: url('/fonts/CircularStd-Book.otf');
+}
+
+@font-face {
+    font-family: 'quicksand';
+    src: url('/fonts/Quicksand-Regular.otf');
+}
+
+@font-face {
+    font-family: 'quicksand_Light';
+    src: url('/fonts/Quicksand-Light.otf');
+}
+
+/* ------------ Fonts END ------------*/
+
+/* ---------Scrollbar customization---------------- */
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: grey;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #2D2D35;
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* ---------Scrollbar customization END---------------- */
+
+/* --------------Break-points Media Queries --------------*/
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: #BFACB5;
+    }
+}
