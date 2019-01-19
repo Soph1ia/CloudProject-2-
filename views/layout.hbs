@@ -13,12 +13,14 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Animate.css --->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <!-- stylesheet for bootstrap --->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 </head>
 
 <body>
     <!----------- NAVBAR ----------------->
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top" style="background-color: #2D2D35; color:#7F7B82;">
-        <a class="navbar-brand" href="#"><img class="logo" src="/images/CloudLogo.png" width="20%" > Cloud</a>
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top shadow p-3 mb-5" style="background-color: #2D2D35; color:#7F7B82;">
+        <a class="navbar-brand " href="#"><img class="logo" src="/images/CloudLogo.png" width="20%" > Cloud</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -40,10 +42,45 @@
     <!--------- END- NAVBAR -------------->
     {{{body}}}
 
+    <!---------------- Footer ----------------->
+
+    <footer class="page-footer font-medium mt-5 pt-5">
+        <div class="container-fluid text-center tx-md-left ">
+            <div class="row">
+
+                <div class="col-md-6 mt-md-0 mt-3">
+                    <h1 class="text-uppercase"> Cloud</h1>
+
+                </div>
+                <hr class="clearfix w-100 d-md-none pb-3">
+                <div class="col-md-3 mb-md-0 mb-3">
+                    <h5 class="text-uppercase">Learn More</h5>
+                    <ul class="list-unstyled">
+                        <li class="nav-item">
+                            <!--- Link to ABOUT US page --->
+                            <a href="#"> About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <!--- Link to SIGN UP page --->
+                            <a href="#"> Sign Up</a>
+                        </li>
+                        <li class="nav-item">
+                            <!--- Link to GITHUB page --->
+                            <a href="#"> Pro.js</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-copyright text-center py-3">© Copyright 2019:
+                <a href="#"> Pro.js</a>
+            </div>
+        </div>
+
+    </footer>
+    <!---------------- END - Footer ----------------->
+
 
     <!---------------------- LINKS ---------------------------------->
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
