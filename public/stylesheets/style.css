@@ -26,9 +26,10 @@ a {
     font-family: 'quicksand';
     font-size: 2em !important;
     color: #707070 !important;
+    transition: 0.2s;
 }
 
-.logo {
+.logoIMG {
     padding: 0;
     margin-bottom: 5px;
 }
@@ -85,7 +86,7 @@ a {
 
 #pt2 {
     padding-top: 10%;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
 }
 
 .row {
@@ -113,13 +114,18 @@ a {
 
 }
 
+/*----- Grey SEction ------- */
+
+.greySec {
+    background-color: rgba(68, 69, 84, 0.1);
+    padding: 20px 0px;
+}
+
 .exTxt_1 {
     text-align: center;
     padding-bottom: 3%;
-    background-image: url('/images/clouds.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
     width: 100%;
+    font-size: 1.5em;
 }
 
 .movementTxt {
@@ -135,7 +141,7 @@ a {
 }
 
 .createNameTxt {
-    color: #707070;
+    color: #000000;
 }
 
 /*--------- with us.... part[2] of think big sction -----*/
@@ -148,13 +154,28 @@ a {
 
 .thinkBigTXT_1 {
     margin-top: 5%;
-    margin-bottom: 10%;
-    font-size: 3em;
+    margin-bottom: 5%;
+    font-size: 1.5em;
 
 }
 
-#thinkBigTXT_2 {
+#and {
+    font-family: 'quicksand';
     font-size: 3em;
+}
+
+#bigDataTxt {
+    font-size: 2em;
+    color: #2D2D35;
+    font-weight: 400;
+}
+
+#nowTxt {
+    font-size: 1.5em;
+}
+
+#thinkBigTXT_2 {
+    font-size: 2em;
 }
 
 .organise {
