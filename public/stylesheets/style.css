@@ -8,6 +8,14 @@ html {
     font-family: 'circular' !important;
 }
 
+a {
+    text-decoration: none;
+}
+
+.btn {
+    border-radius: 50px !important;
+    padding: 10px 50px !important;
+}
 
 
 /* ------------GENERAL END ----------------*/
@@ -18,9 +26,10 @@ html {
     font-family: 'quicksand';
     font-size: 2em !important;
     color: #707070 !important;
+    transition: 0.2s;
 }
 
-.logo {
+.logoIMG {
     padding: 0;
     margin-bottom: 5px;
 }
@@ -32,9 +41,21 @@ html {
 
 .nav-item {
     padding: 0 20px;
+    font-size: 1.2em;
 }
 
 /* ------------ Navbar END ------------*/
+
+/* ------------ FOOTER ------------*/
+
+.page-footer {
+
+    background-color: rgb(0, 0, 0);
+    font-family: 'circular';
+    color: #444554;
+}
+
+/* ------------ FOOTER END ------------*/
 
 /* ------------ Landing Page ------------*/
 
@@ -44,7 +65,7 @@ html {
     background-image: url('/images/Background_D.svg');
     height: 100%;
     width: 100%;
-    background-position: bottom;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -65,7 +86,7 @@ html {
 
 #pt2 {
     padding-top: 10%;
-    padding-bottom: 20%;
+    padding-bottom: 5%;
 }
 
 .row {
@@ -87,14 +108,43 @@ html {
 
 /*--------------------- Think Big Section ------------*/
 
-.thinkBigH {
-    font-size: 5em;
+.cloudsIMG {
+    height: 100%;
+    width: 100%;
+
 }
 
-.thinkBigIMG {
-    width: 70%;
-    height: 70%;
+/*----- Grey SEction ------- */
+
+.greySec {
+    background-color: rgba(68, 69, 84, 0.1);
+    padding: 20px 0px;
 }
+
+.exTxt_1 {
+    text-align: center;
+    padding-bottom: 3%;
+    width: 100%;
+    font-size: 1.5em;
+}
+
+.movementTxt {
+    font-size: 4em;
+}
+
+.deleteTxt {
+    text-align: auto;
+}
+
+.transferTxt {
+    text-align: auto;
+}
+
+.createNameTxt {
+    color: #000000;
+}
+
+/*--------- with us.... part[2] of think big sction -----*/
 
 .thinkBigTXT_1,
 #thinkBigTXT_2 {
@@ -104,13 +154,28 @@ html {
 
 .thinkBigTXT_1 {
     margin-top: 5%;
-    margin-bottom: 10%;
-    font-size: 5em;
+    margin-bottom: 5%;
+    font-size: 1.5em;
 
 }
 
-#thinkBigTXT_2 {
+#and {
+    font-family: 'quicksand';
     font-size: 3em;
+}
+
+#bigDataTxt {
+    font-size: 2em;
+    color: #2D2D35;
+    font-weight: 400;
+}
+
+#nowTxt {
+    font-size: 1.5em;
+}
+
+#thinkBigTXT_2 {
+    font-size: 2em;
 }
 
 .organise {
@@ -124,8 +189,14 @@ html {
     margin: 0;
 }
 
+.bottomBtn {
+    font-size: 90%;
+}
+
+
 .signUp_1 {
-    margin-top: 5em;
+    font-size: 200%;
+    color: #E5D0CC;
 }
 
 
@@ -133,6 +204,34 @@ html {
 /* think big - BUTTON - END */
 
 /*------------------------Think Big Section End------------------------*/
+
+/*------------------------Organised/floating ------------------------*/
+
+.organisedHdr,
+.organisedTxt {
+    font-size: 500%;
+}
+
+.organisedHdr {
+    color: #BFACB5;
+}
+
+.organisedTxt {
+    color: #7F7B82;
+    text-align: center;
+}
+
+.wuTxt {
+    font-size: 700%;
+    text-align: center;
+}
+
+.floatIMG {
+    width: 80%;
+
+}
+
+/*------------------------Organised/floating End------------------------*/
 
 /* ------------ Fonts ------------*/
 
@@ -184,7 +283,7 @@ html {
 /* --------------Break-points Media Queries --------------*/
 
 @media only screen and (max-width: 600px) {
-    body {
-        background-color: #BFACB5;
+    .exTxt_1 {
+        background-image: none;
     }
 }
